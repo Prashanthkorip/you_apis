@@ -35,19 +35,19 @@ const Questionnaire: React.FC<{
       })
       ),
       axios(
-        "https://chat-api.you.com/energy",
+        "http://127.0.0.1:5000/energy",
         options({
           "answers3":answers[2]
         })
       ),
       axios(
-        "https://chat-api.you.com/water",
+        "http://127.0.0.1:5000/water",
         options({
           "answers4":answers[3]
         })
       ),
       axios(
-        "https://chat-api.you.com/plants",
+        "http://127.0.0.1:5000/plants",
         options({
           "answers5":answers[4]
         })
